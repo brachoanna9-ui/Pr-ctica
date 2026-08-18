@@ -1,6 +1,12 @@
-import React from "react";
-import Home from "./pages/Home";
+import React from 'react';
+import Login from './pages/Auth/login';
 
-export default function App() {
-    return <Home />;
+function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
+
+export default App;
